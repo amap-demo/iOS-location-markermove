@@ -108,8 +108,6 @@
         MAAnnotationView *userLocationView = [[MAAnnotationView alloc] initWithAnnotation:self.customUserAnnotation reuseIdentifier:reuseId];
         userLocationView.frame = CGRectZero;
         return userLocationView;
-
-        return nil;
     }
     
     if(annotation == self.customUserAnnotation) {

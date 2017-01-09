@@ -149,7 +149,7 @@
 					B657008A1E0BFED600D501A4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -368,6 +368,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMove";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b821a78-8ad6-4cf7-b6b0-31b43df04bbe";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
 			};
 			name = Debug;
 		};
@@ -376,11 +378,14 @@
 			baseConfigurationReference = 3A295E7D16D9A567861EC89B /* Pods-iOS-userLocation-smoothMove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = YMJ372W38W;
 				INFOPLIST_FILE = "iOS-userLocation-smoothMove/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMove";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
 			};
 			name = Release;
 		};
