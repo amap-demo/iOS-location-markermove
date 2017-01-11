@@ -28,7 +28,6 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.mapView = [[MAMapView alloc] initWithFrame:self.view.bounds];
-    self.mapView.showsUserLocation = YES;
     self.mapView.customizeUserLocationAccuracyCircleRepresentation = YES;
     self.mapView.delegate = self;
     [self.view addSubview:self.mapView];
@@ -36,13 +35,34 @@
     self.customUserAnnotation = [[MAPointAnnotation alloc] init];
     self.movingAnimation = [[MovingAnimation alloc] init];
     
-    self.mapView.zoomLevel = 18;
+    self.mapView.zoomLevel = 16;
+    
+    [self initBtn];
+    
 }
-
 
 - (void)dealloc {
     [self stopTimer];
 }
+
+- (void)initBtn {
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(0, 100, 60, 40);
+    btn.backgroundColor = [UIColor grayColor];
+    [btn setTitle:@"showsUserlocation" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(actionLocation) forControlEvents:UIControlEventTouchUpInside];
+    [btn sizeToFit];
+    [self.view addSubview:btn];
+}
+
+- (void)actionLocation {
+    self.mapView.showsUserLocation = !self.mapView.showsUserLocation;
+    
+    if (!self.mapView.showsUserLocation) {
+        [self.mapView removeAnnotation:self.customUserAnnotation];
+    }
+}
+
 #pragma mark - MAMapViewDelegate
 
 - (void)mapView:(MAMapView *)mapView didUpdateUserLocation:(MAUserLocation *)userLocation updatingLocation:(BOOL)updatingLocation {
@@ -60,8 +80,8 @@
          ********************************/
         static int simulatedCount = 0;
         if(simulatedCount < 10) {
-            float delta = 0.1 + (float)(rand() % 100) / 1000;
-            float delta2 = 0.1 + (float)(rand() % 100) / 1000;
+            float delta = 0.001 + (float)(rand() % 100) / 100000;
+            float delta2 = 0.001 + (float)(rand() % 100) / 100000;
             delta *= (rand() % 2 == 0 ? 1 : -1);
             delta2 *= (rand() % 2 == 0 ? 1 : -1);
             curCoord.latitude = preCoord.latitude + delta;
@@ -139,7 +159,7 @@
     const double movingSpeed = 200.0 * 1000 / (60*60); //200公里/小时
     double duration = distance / movingSpeed;
     self.movingAnimation.duration = duration;
-//    self.movingAnimation.duration = 0.25; //您也可以指定一个固定动画时长
+    self.movingAnimation.duration = 0.25; //您也可以指定一个固定动画时长
     
     [self startTimer];
 }
@@ -159,7 +179,7 @@
 
 - (void)onTimer:(NSTimer *)timer {
     self.customUserAnnotation.coordinate = [self.movingAnimation step:timer.timeInterval];
-    self.mapView.centerCoordinate = self.customUserAnnotation.coordinate;
+//    self.mapView.centerCoordinate = self.customUserAnnotation.coordinate;
     
     if([self.movingAnimation isFinished]) {
         //恢复自动降低帧率
