@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34CFD7A7D7A3FE95A2EDDA20 /* libPods-iOS-userLocation-smoothMove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2BA41FF14470C059F29F66 /* libPods-iOS-userLocation-smoothMove.a */; };
+		6A48AD991E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A48AD981E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m */; };
 		B65700901E0BFED600D501A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B657008F1E0BFED600D501A4 /* main.m */; };
 		B65700931E0BFED600D501A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700921E0BFED600D501A4 /* AppDelegate.m */; };
 		B65700961E0BFED600D501A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700951E0BFED600D501A4 /* ViewController.m */; };
@@ -19,9 +20,22 @@
 		B65700D81E0D3B5700D501A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B65700D71E0D3B5700D501A4 /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6A48AD9B1E26125300ADE486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65700831E0BFED600D501A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B657008A1E0BFED600D501A4;
+			remoteInfo = "iOS-userLocation-smoothMove";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3A295E7D16D9A567861EC89B /* Pods-iOS-userLocation-smoothMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove/Pods-iOS-userLocation-smoothMove.release.xcconfig"; sourceTree = "<group>"; };
 		4F2BA41FF14470C059F29F66 /* libPods-iOS-userLocation-smoothMove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-userLocation-smoothMove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A48AD961E26125200ADE486 /* iOS-userLocation-smoothMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-userLocation-smoothMoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A48AD981E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_userLocation_smoothMoveUITests.m; sourceTree = "<group>"; };
+		6A48AD9A1E26125300ADE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E22B3290B9C9087FFD259D9 /* Pods-iOS-userLocation-smoothMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove/Pods-iOS-userLocation-smoothMove.debug.xcconfig"; sourceTree = "<group>"; };
 		B657008B1E0BFED600D501A4 /* iOS-userLocation-smoothMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-userLocation-smoothMove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B657008F1E0BFED600D501A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A48AD931E26125200ADE486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B65700881E0BFED600D501A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A48AD971E26125300ADE486 /* iOS-userLocation-smoothMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A48AD981E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m */,
+				6A48AD9A1E26125300ADE486 /* Info.plist */,
+			);
+			path = "iOS-userLocation-smoothMoveUITests";
+			sourceTree = "<group>";
+		};
 		83915739D0CADD18D9760ADC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,7 @@
 				B65700D71E0D3B5700D501A4 /* README.md */,
 				B65700A51E0BFF4200D501A4 /* Podfile */,
 				B657008D1E0BFED600D501A4 /* iOS-userLocation-smoothMove */,
+				6A48AD971E26125300ADE486 /* iOS-userLocation-smoothMoveUITests */,
 				B657008C1E0BFED600D501A4 /* Products */,
 				B3FDF0D948DA06872BEF2DA3 /* Pods */,
 				83915739D0CADD18D9760ADC /* Frameworks */,
@@ -84,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				B657008B1E0BFED600D501A4 /* iOS-userLocation-smoothMove.app */,
+				6A48AD961E26125200ADE486 /* iOS-userLocation-smoothMoveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +149,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6A48AD951E26125200ADE486 /* iOS-userLocation-smoothMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A48AD9F1E26125300ADE486 /* Build configuration list for PBXNativeTarget "iOS-userLocation-smoothMoveUITests" */;
+			buildPhases = (
+				6A48AD921E26125200ADE486 /* Sources */,
+				6A48AD931E26125200ADE486 /* Frameworks */,
+				6A48AD941E26125200ADE486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A48AD9C1E26125300ADE486 /* PBXTargetDependency */,
+			);
+			name = "iOS-userLocation-smoothMoveUITests";
+			productName = "iOS-userLocation-smoothMoveUITests";
+			productReference = 6A48AD961E26125200ADE486 /* iOS-userLocation-smoothMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B657008A1E0BFED600D501A4 /* iOS-userLocation-smoothMove */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65700A21E0BFED600D501A4 /* Build configuration list for PBXNativeTarget "iOS-userLocation-smoothMove" */;
@@ -146,6 +196,12 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = autonavi;
 				TargetAttributes = {
+					6A48AD951E26125200ADE486 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = B657008A1E0BFED600D501A4;
+					};
 					B657008A1E0BFED600D501A4 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = YMJ372W38W;
@@ -167,11 +223,19 @@
 			projectRoot = "";
 			targets = (
 				B657008A1E0BFED600D501A4 /* iOS-userLocation-smoothMove */,
+				6A48AD951E26125200ADE486 /* iOS-userLocation-smoothMoveUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A48AD941E26125200ADE486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B65700891E0BFED600D501A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +298,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A48AD921E26125200ADE486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A48AD991E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B65700871E0BFED600D501A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +319,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A48AD9C1E26125300ADE486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B657008A1E0BFED600D501A4 /* iOS-userLocation-smoothMove */;
+			targetProxy = 6A48AD9B1E26125300ADE486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B65700971E0BFED600D501A4 /* Main.storyboard */ = {
@@ -268,6 +348,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6A48AD9D1E26125300ADE486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-userLocation-smoothMoveUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b821a78-8ad6-4cf7-b6b0-31b43df04bbe";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-userLocation-smoothMove";
+			};
+			name = Debug;
+		};
+		6A48AD9E1E26125300ADE486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-userLocation-smoothMoveUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMoveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b821a78-8ad6-4cf7-b6b0-31b43df04bbe";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = "iOS-userLocation-smoothMove";
+			};
+			name = Release;
+		};
 		B65700A01E0BFED600D501A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,6 +504,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A48AD9F1E26125300ADE486 /* Build configuration list for PBXNativeTarget "iOS-userLocation-smoothMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A48AD9D1E26125300ADE486 /* Debug */,
+				6A48AD9E1E26125300ADE486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B65700861E0BFED600D501A4 /* Build configuration list for PBXProject "iOS-userLocation-smoothMove" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
