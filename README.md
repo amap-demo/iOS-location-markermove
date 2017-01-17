@@ -14,19 +14,38 @@
 
 ## 核心难点 ##
 ###根据两次定位点在屏幕显示上的像素差决定是否动画移动
+
+`Objective-C`
+
 ```
 CLLocation *prevLoc = [[CLLocation alloc] initWithLatitude:preCoord.latitude longitude:preCoord.longitude];
 CLLocation *loc = [[CLLocation alloc] initWithLatitude:curCoord.latitude longitude:curCoord.longitude];
-
 CGPoint prevPoint = [self.mapView convertCoordinate:preCoord toPointToView:self.mapView];
 CGPoint curPoint = [self.mapView convertCoordinate:curCoord toPointToView:self.mapView];
 
 //超过两个像素才做动画
 if(fabs(curPoint.x - prevPoint.x) > 2 || fabs(curPoint.y - prevPoint.y) > 2) {
-[self addMovingAnnotationFrom:prevLoc toCoord:loc];
+    [self addMovingAnnotationFrom:prevLoc toCoord:loc];
 } else {
-self.customUserAnnotation.coordinate = curCoord;
+    self.customUserAnnotation.coordinate = curCoord;
 }
 
+```
+
+`Swift`
+
+```
+
+let prevLoc = CLLocation(latitude: preCoord.latitude, longitude: preCoord.longitude)
+let loc = CLLocation(latitude: curCoord.latitude, longitude: curCoord.longitude)
+let prevPoint: CGPoint = self.mapView.convert(preCoord, toPointTo: self.mapView)
+let curPoint: CGPoint = self.mapView.convert(curCoord, toPointTo: self.mapView)
+
+//超过两个像素才做动画
+if fabs(curPoint.x - prevPoint.x) > 2 || fabs(curPoint.y - prevPoint.y) > 2 {
+    self.addMovingAnnotation(from: prevLoc, toCoord: loc)
+} else {
+    self.customUserAnnotation.coordinate = curCoord
+}
 
 ```

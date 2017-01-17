@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		34CFD7A7D7A3FE95A2EDDA20 /* libPods-iOS-userLocation-smoothMove.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2BA41FF14470C059F29F66 /* libPods-iOS-userLocation-smoothMove.a */; };
 		6A48AD991E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A48AD981E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m */; };
+		851B4DB002E23E1E2216DB93 /* libPods-iOS-userLocation-smoothMove-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B426AAFF58C3BCD0F28D1D44 /* libPods-iOS-userLocation-smoothMove-Swift.a */; };
 		B65700901E0BFED600D501A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B657008F1E0BFED600D501A4 /* main.m */; };
 		B65700931E0BFED600D501A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700921E0BFED600D501A4 /* AppDelegate.m */; };
 		B65700961E0BFED600D501A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700951E0BFED600D501A4 /* ViewController.m */; };
@@ -18,6 +19,12 @@
 		B65700A61E0BFF4200D501A4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B65700A51E0BFF4200D501A4 /* Podfile */; };
 		B65700A91E0CFBB900D501A4 /* MovingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700A81E0CFBB900D501A4 /* MovingAnimation.m */; };
 		B65700D81E0D3B5700D501A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B65700D71E0D3B5700D501A4 /* README.md */; };
+		D9F65BAE1E2CFFDB002BBD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAD1E2CFFDB002BBD5C /* AppDelegate.swift */; };
+		D9F65BB01E2CFFDB002BBD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAF1E2CFFDB002BBD5C /* ViewController.swift */; };
+		D9F65BB31E2CFFDB002BBD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB11E2CFFDB002BBD5C /* Main.storyboard */; };
+		D9F65BB51E2CFFDB002BBD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB41E2CFFDB002BBD5C /* Assets.xcassets */; };
+		D9F65BB81E2CFFDB002BBD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB61E2CFFDB002BBD5C /* LaunchScreen.storyboard */; };
+		D9F65BBF1E2D0235002BBD5C /* MovingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BBE1E2D0235002BBD5C /* MovingAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3A62322BE0E015DF0DD9B0 /* Pods-iOS-userLocation-smoothMove-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove-Swift/Pods-iOS-userLocation-smoothMove-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		3A295E7D16D9A567861EC89B /* Pods-iOS-userLocation-smoothMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove/Pods-iOS-userLocation-smoothMove.release.xcconfig"; sourceTree = "<group>"; };
 		4F2BA41FF14470C059F29F66 /* libPods-iOS-userLocation-smoothMove.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-userLocation-smoothMove.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5544F3CD05FF9D7F6CFC6D71 /* Pods-iOS-userLocation-smoothMove-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove-Swift/Pods-iOS-userLocation-smoothMove-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		6A48AD961E26125200ADE486 /* iOS-userLocation-smoothMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-userLocation-smoothMoveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A48AD981E26125300ADE486 /* iOS_userLocation_smoothMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_userLocation_smoothMoveUITests.m; sourceTree = "<group>"; };
 		6A48AD9A1E26125300ADE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E22B3290B9C9087FFD259D9 /* Pods-iOS-userLocation-smoothMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-userLocation-smoothMove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-userLocation-smoothMove/Pods-iOS-userLocation-smoothMove.debug.xcconfig"; sourceTree = "<group>"; };
+		B426AAFF58C3BCD0F28D1D44 /* libPods-iOS-userLocation-smoothMove-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-userLocation-smoothMove-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B657008B1E0BFED600D501A4 /* iOS-userLocation-smoothMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-userLocation-smoothMove.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B657008F1E0BFED600D501A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B65700911E0BFED600D501A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,10 +57,19 @@
 		B657009A1E0BFED600D501A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B657009D1E0BFED600D501A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B657009F1E0BFED600D501A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B65700A51E0BFF4200D501A4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B65700A51E0BFF4200D501A4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B65700A71E0CFBB900D501A4 /* MovingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingAnimation.h; sourceTree = "<group>"; };
 		B65700A81E0CFBB900D501A4 /* MovingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingAnimation.m; sourceTree = "<group>"; };
 		B65700D71E0D3B5700D501A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D9F65BAB1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-userLocation-smoothMove-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F65BAD1E2CFFDB002BBD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9F65BAF1E2CFFDB002BBD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9F65BB21E2CFFDB002BBD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9F65BB41E2CFFDB002BBD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F65BB71E2CFFDB002BBD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9F65BB91E2CFFDB002BBD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F65BBD1E2D0044002BBD5C /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9F65BBE1E2D0235002BBD5C /* MovingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +85,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CFD7A7D7A3FE95A2EDDA20 /* libPods-iOS-userLocation-smoothMove.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65BA81E2CFFDB002BBD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851B4DB002E23E1E2216DB93 /* libPods-iOS-userLocation-smoothMove-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				4F2BA41FF14470C059F29F66 /* libPods-iOS-userLocation-smoothMove.a */,
+				B426AAFF58C3BCD0F28D1D44 /* libPods-iOS-userLocation-smoothMove-Swift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +122,8 @@
 			children = (
 				6E22B3290B9C9087FFD259D9 /* Pods-iOS-userLocation-smoothMove.debug.xcconfig */,
 				3A295E7D16D9A567861EC89B /* Pods-iOS-userLocation-smoothMove.release.xcconfig */,
+				5544F3CD05FF9D7F6CFC6D71 /* Pods-iOS-userLocation-smoothMove-Swift.debug.xcconfig */,
+				0C3A62322BE0E015DF0DD9B0 /* Pods-iOS-userLocation-smoothMove-Swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -105,6 +135,7 @@
 				B65700A51E0BFF4200D501A4 /* Podfile */,
 				B657008D1E0BFED600D501A4 /* iOS-userLocation-smoothMove */,
 				6A48AD971E26125300ADE486 /* iOS-userLocation-smoothMoveUITests */,
+				D9F65BAC1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift */,
 				B657008C1E0BFED600D501A4 /* Products */,
 				B3FDF0D948DA06872BEF2DA3 /* Pods */,
 				83915739D0CADD18D9760ADC /* Frameworks */,
@@ -116,6 +147,7 @@
 			children = (
 				B657008B1E0BFED600D501A4 /* iOS-userLocation-smoothMove.app */,
 				6A48AD961E26125200ADE486 /* iOS-userLocation-smoothMoveUITests.xctest */,
+				D9F65BAB1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +176,21 @@
 				B657008F1E0BFED600D501A4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F65BAC1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D9F65BAD1E2CFFDB002BBD5C /* AppDelegate.swift */,
+				D9F65BAF1E2CFFDB002BBD5C /* ViewController.swift */,
+				D9F65BBD1E2D0044002BBD5C /* Swift-Bridging-Header.h */,
+				D9F65BBE1E2D0235002BBD5C /* MovingAnimation.swift */,
+				D9F65BB11E2CFFDB002BBD5C /* Main.storyboard */,
+				D9F65BB41E2CFFDB002BBD5C /* Assets.xcassets */,
+				D9F65BB61E2CFFDB002BBD5C /* LaunchScreen.storyboard */,
+				D9F65BB91E2CFFDB002BBD5C /* Info.plist */,
+			);
+			path = "iOS-userLocation-smoothMove-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,12 +234,33 @@
 			productReference = B657008B1E0BFED600D501A4 /* iOS-userLocation-smoothMove.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9F65BAA1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F65BBA1E2CFFDB002BBD5C /* Build configuration list for PBXNativeTarget "iOS-userLocation-smoothMove-Swift" */;
+			buildPhases = (
+				1E1337B37A52577570058F61 /* [CP] Check Pods Manifest.lock */,
+				D9F65BA71E2CFFDB002BBD5C /* Sources */,
+				D9F65BA81E2CFFDB002BBD5C /* Frameworks */,
+				D9F65BA91E2CFFDB002BBD5C /* Resources */,
+				818BE78E9AB936CE750EAEE4 /* [CP] Embed Pods Frameworks */,
+				7A2215AA58305A3BF7ECD971 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-userLocation-smoothMove-Swift";
+			productName = "iOS-userLocation-smoothMove-Swift";
+			productReference = D9F65BAB1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B65700831E0BFED600D501A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = autonavi;
 				TargetAttributes = {
@@ -204,6 +272,11 @@
 					};
 					B657008A1E0BFED600D501A4 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
+					D9F65BAA1E2CFFDB002BBD5C = {
+						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
@@ -224,6 +297,7 @@
 			targets = (
 				B657008A1E0BFED600D501A4 /* iOS-userLocation-smoothMove */,
 				6A48AD951E26125200ADE486 /* iOS-userLocation-smoothMoveUITests */,
+				D9F65BAA1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +318,16 @@
 				B657009B1E0BFED600D501A4 /* Assets.xcassets in Resources */,
 				B65700A61E0BFF4200D501A4 /* Podfile in Resources */,
 				B65700991E0BFED600D501A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65BA91E2CFFDB002BBD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F65BB81E2CFFDB002BBD5C /* LaunchScreen.storyboard in Resources */,
+				D9F65BB51E2CFFDB002BBD5C /* Assets.xcassets in Resources */,
+				D9F65BB31E2CFFDB002BBD5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +364,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		1E1337B37A52577570058F61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		3BF7F9304F108FEB59EDE339 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,6 +392,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-userLocation-smoothMove/Pods-iOS-userLocation-smoothMove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2215AA58305A3BF7ECD971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-userLocation-smoothMove-Swift/Pods-iOS-userLocation-smoothMove-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		818BE78E9AB936CE750EAEE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-userLocation-smoothMove-Swift/Pods-iOS-userLocation-smoothMove-Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -315,6 +444,16 @@
 				B65700D81E0D3B5700D501A4 /* README.md in Sources */,
 				B65700931E0BFED600D501A4 /* AppDelegate.m in Sources */,
 				B65700901E0BFED600D501A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F65BA71E2CFFDB002BBD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F65BBF1E2D0235002BBD5C /* MovingAnimation.swift in Sources */,
+				D9F65BB01E2CFFDB002BBD5C /* ViewController.swift in Sources */,
+				D9F65BAE1E2CFFDB002BBD5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +480,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B657009D1E0BFED600D501A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F65BB11E2CFFDB002BBD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F65BB21E2CFFDB002BBD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9F65BB61E2CFFDB002BBD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F65BB71E2CFFDB002BBD5C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -501,6 +656,48 @@
 			};
 			name = Release;
 		};
+		D9F65BBB1E2CFFDB002BBD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5544F3CD05FF9D7F6CFC6D71 /* Pods-iOS-userLocation-smoothMove-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-userLocation-smoothMove-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-userLocation-smoothMove-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D9F65BBC1E2CFFDB002BBD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3A62322BE0E015DF0DD9B0 /* Pods-iOS-userLocation-smoothMove-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-userLocation-smoothMove-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-userLocation-smoothMove";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "./iOS-userLocation-smoothMove-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -511,6 +708,7 @@
 				6A48AD9E1E26125300ADE486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65700861E0BFED600D501A4 /* Build configuration list for PBXProject "iOS-userLocation-smoothMove" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +724,15 @@
 			buildConfigurations = (
 				B65700A31E0BFED600D501A4 /* Debug */,
 				B65700A41E0BFED600D501A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F65BBA1E2CFFDB002BBD5C /* Build configuration list for PBXNativeTarget "iOS-userLocation-smoothMove-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F65BBB1E2CFFDB002BBD5C /* Debug */,
+				D9F65BBC1E2CFFDB002BBD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

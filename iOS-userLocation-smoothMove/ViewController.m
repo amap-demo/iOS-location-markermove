@@ -105,7 +105,6 @@
     } else {
         [self.mapView addAnnotation:self.customUserAnnotation];
         self.customUserAnnotation.coordinate = userLocation.location.coordinate;
-        
         self.mapView.centerCoordinate = userLocation.location.coordinate;
     }
 }

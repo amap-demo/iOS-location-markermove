@@ -6,3 +6,10 @@ target 'iOS-userLocation-smoothMove' do
     pod 'AMap3DMap'
 
 end
+
+
+target 'iOS-userLocation-smoothMove-Swift' do
+    
+    pod 'AMap3DMap'
+    
+end
