@@ -46,13 +46,19 @@
 }
 
 - (void)initBtn {
-    UIButton * btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btn.frame = CGRectMake(0, 100, 60, 40);
-    btn.backgroundColor = [UIColor grayColor];
-    [btn setTitle:@"showsUserlocation" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(actionLocation) forControlEvents:UIControlEventTouchUpInside];
-    [btn sizeToFit];
-    [self.view addSubview:btn];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, 120, 32)];
+    button.backgroundColor = [UIColor whiteColor];
+    button.layer.borderWidth = 1.0;
+    button.titleLabel.font = [UIFont systemFontOfSize:12];
+    button.layer.borderColor = [UIColor redColor].CGColor;
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [button setTitle:@"showsUserlocation" forState:UIControlStateNormal];
+    
+    [button addTarget:self action:@selector(actionLocation) forControlEvents:UIControlEventTouchUpInside];
+    
+    [button sizeToFit];
+    [self.view addSubview:button];
 }
 
 - (void)actionLocation {
