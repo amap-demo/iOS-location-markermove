@@ -16,9 +16,7 @@
 		B65700991E0BFED600D501A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65700971E0BFED600D501A4 /* Main.storyboard */; };
 		B657009B1E0BFED600D501A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B657009A1E0BFED600D501A4 /* Assets.xcassets */; };
 		B657009E1E0BFED600D501A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B657009C1E0BFED600D501A4 /* LaunchScreen.storyboard */; };
-		B65700A61E0BFF4200D501A4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B65700A51E0BFF4200D501A4 /* Podfile */; };
 		B65700A91E0CFBB900D501A4 /* MovingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B65700A81E0CFBB900D501A4 /* MovingAnimation.m */; };
-		B65700D81E0D3B5700D501A4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B65700D71E0D3B5700D501A4 /* README.md */; };
 		D9F65BAE1E2CFFDB002BBD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAD1E2CFFDB002BBD5C /* AppDelegate.swift */; };
 		D9F65BB01E2CFFDB002BBD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F65BAF1E2CFFDB002BBD5C /* ViewController.swift */; };
 		D9F65BB31E2CFFDB002BBD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F65BB11E2CFFDB002BBD5C /* Main.storyboard */; };
@@ -57,10 +55,8 @@
 		B657009A1E0BFED600D501A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B657009D1E0BFED600D501A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B657009F1E0BFED600D501A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B65700A51E0BFF4200D501A4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B65700A71E0CFBB900D501A4 /* MovingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingAnimation.h; sourceTree = "<group>"; };
 		B65700A81E0CFBB900D501A4 /* MovingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingAnimation.m; sourceTree = "<group>"; };
-		B65700D71E0D3B5700D501A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D9F65BAB1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-userLocation-smoothMove-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F65BAD1E2CFFDB002BBD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9F65BAF1E2CFFDB002BBD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,8 +127,6 @@
 		B65700821E0BFED600D501A4 = {
 			isa = PBXGroup;
 			children = (
-				B65700D71E0D3B5700D501A4 /* README.md */,
-				B65700A51E0BFF4200D501A4 /* Podfile */,
 				B657008D1E0BFED600D501A4 /* iOS-userLocation-smoothMove */,
 				6A48AD971E26125300ADE486 /* iOS-userLocation-smoothMoveUITests */,
 				D9F65BAC1E2CFFDB002BBD5C /* iOS-userLocation-smoothMove-Swift */,
@@ -316,7 +310,6 @@
 			files = (
 				B657009E1E0BFED600D501A4 /* LaunchScreen.storyboard in Resources */,
 				B657009B1E0BFED600D501A4 /* Assets.xcassets in Resources */,
-				B65700A61E0BFF4200D501A4 /* Podfile in Resources */,
 				B65700991E0BFED600D501A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +434,6 @@
 			files = (
 				B65700A91E0CFBB900D501A4 /* MovingAnimation.m in Sources */,
 				B65700961E0BFED600D501A4 /* ViewController.m in Sources */,
-				B65700D81E0D3B5700D501A4 /* README.md in Sources */,
 				B65700931E0BFED600D501A4 /* AppDelegate.m in Sources */,
 				B65700901E0BFED600D501A4 /* main.m in Sources */,
 			);
