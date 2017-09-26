@@ -21,7 +21,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Demo运行需要使用您的后台权限</string>
+	<string>Demo运行需要使用您的定位权限</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Demo运行需要使用您的定位权限</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Demo运行需要使用您的定位权限</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
